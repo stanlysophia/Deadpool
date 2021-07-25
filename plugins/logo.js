@@ -125,7 +125,7 @@ Asena.addCommand({pattern: 'logo', fromMe: false, desc: Lang.TXTTOIMG_DESC}, (as
 
     var webimage = await axios.get(`https://api.xteam.xyz/textpro/1917?text=${match[1]}&APIKEY=f3eaf19231f6201c`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```Made by Pikachu```'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```Made by shazz```'})
 
     }));
 
