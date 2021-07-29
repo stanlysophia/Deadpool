@@ -18,7 +18,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=apivinz&text=ZEKS%20API&type=1=${encodeURIComponent(match[1])}&text2=Deadpool`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: 'Made by shazz ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '😈𝕄𝕒𝕕𝕖 𝕓𝕪 𝕊ℍ𝔸ℤℤ😈' })
 
     }));
 }
@@ -31,7 +31,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=apivinz&text=ZEKS%20API&type=1=${encodeURIComponent(match[1])}&text2=Deadpool`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: 'Made by shazz bot' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '😈𝕄𝕒𝕕𝕖 𝕓𝕪 𝕊ℍ𝔸ℤℤ😈' })
 
     }));
     
