@@ -147,7 +147,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
     if (!!message.mention && message.mention[0] == '919946432377@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./sticker/song.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
-const array = ['Msd','Vijay','Rashmika','song','Sry','Line','aara','bye','Da','dj','gd mrng','gd n8','Hi','Hlo','kalipp','kazhicho','kollaam','Mathu','modeesh','Muthe','myr','omg','pever','poda','nee poovaa','saved','sed','Smile','sugano','Thyr','wow']
+const array = ['Msd','Vijay','stanly','Stanly','Rashmika','song','Sry','Line','aara','bye','Da','dj','gd mrng','gd n8','Hi','Hlo','kalipp','kazhicho','kollaam','Mathu','modeesh','Muthe','myr','omg','pever','poda','nee poovaa','saved','sed','Smile','sugano','Thyr','wow']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
